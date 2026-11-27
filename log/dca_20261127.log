@@ -1,0 +1,80 @@
+2026-11-27 08:18:51 - INFO - ============================================================
+2026-11-27 08:18:51 - INFO - Configuration loaded:
+2026-11-27 08:18:51 - INFO -   VIX Threshold: 18
+2026-11-27 08:18:51 - INFO -   Retracement Levels: [0.08, 0.16, 0.24]
+2026-11-27 08:18:51 - INFO -   Multipli#ers: {'base': 1, 'level1': 2, 'level2': 4, 'level3': 8}
+2026-11-27 08:18:51 - INFO - ============================================================
+2026-11-27 08:18:51 - INFO - 
+🚀 Starting SPY Martingale DCA Contribution Calculator...
+2026-11-27 08:18:51 - INFO - Execution started at: 2026-11-27 08:18:51
+2026-11-27 08:18:51 - INFO - Fetching current market data...
+2026-11-27 08:18:51 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:51 - INFO - Downloading VIX data...
+2026-11-27 08:18:52 - INFO - VIX data retrieved: 26.80
+2026-11-27 08:18:52 - INFO - Downloading SPY data (1 year)...
+2026-11-27 08:18:52 - INFO - SPY current price: $658.87
+2026-11-27 08:18:52 - INFO - SPY 52-week high: $716.20
+2026-11-27 08:18:52 - INFO - Calculated retracement: 8.00%
+2026-11-27 08:18:52 - INFO - Last market update: 2026-11-25 00:00:00
+2026-11-27 08:18:52 - INFO - Market data fetch completed successfully
+2026-11-27 08:18:52 - INFO - Calculating contribution multiplier...
+2026-11-27 08:18:52 - INFO - Input parameters - VIX: 26.80, Retracement: 8.00%
+2026-11-27 08:18:52 - INFO - VIX (26.80) exceeds threshold (18)
+2026-11-27 08:18:52 - INFO - Level 1 trigger: Multiplier = 2x (Retracement ≥8%)
+2026-11-27 08:18:52 - INFO - Contribution calculation completed
+2026-11-27 08:18:52 - INFO - 
+📊 UPDATING STRATEGY HISTORY (Backtest)...
+2026-11-27 08:18:52 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:52 - INFO - Strategy history updated: 2026-11-27, Entry Price: $658.87, Total Contribution: $33000, Portfolio Value: $33167.08, No. of Contributions: 32
+2026-11-27 08:18:52 - INFO - 
+============================================================
+2026-11-27 08:18:52 - INFO - 📊 SPY MARTINGALE DCA - CURRENT CONTRIBUTION ALERT
+2026-11-27 08:18:52 - INFO - ============================================================
+2026-11-27 08:18:52 - INFO - 
+📅 Last Market Update: 2026-11-25 00:00:00
+2026-11-27 08:18:52 - INFO - 
+📈 CURRENT MARKET CONDITIONS:
+2026-11-27 08:18:52 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:52 - INFO -   VOO Price:           $658.87
+2026-11-27 08:18:52 - INFO -   52-Week High:        $716.20
+2026-11-27 08:18:52 - INFO -   Retracement:         8.00%
+2026-11-27 08:18:52 - INFO -   VIX Level:           26.80
+2026-11-27 08:18:52 - INFO - 
+💰 CONTRIBUTION RECOMMENDATION:
+2026-11-27 08:18:52 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:52 - INFO -   Multiplier:          2x
+2026-11-27 08:18:52 - INFO - 
+💵 Current Portfolio:
+2026-11-27 08:18:52 - INFO -   Entry Price:         $658.87
+2026-11-27 08:18:52 - INFO -   Total Contribution:  $33000
+2026-11-27 08:18:52 - INFO -   Portfolio Value:     $33167.08
+2026-11-27 08:18:54 - INFO - Telegram notification sent successfully
+2026-11-27 08:18:54 - INFO - 
+🎯 TRIGGER ANALYSIS:
+2026-11-27 08:18:54 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:54 - INFO -   VIX > 18 AND SPY down 8.0% from high (≥8%)
+2026-11-27 08:18:54 - INFO - 
+📊 RETRACEMENT LEVELS:
+2026-11-27 08:18:54 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:54 - INFO -   🟢 0%-8%: 1x - Normal
+2026-11-27 08:18:54 - INFO -   🟡 8%-16%: 2x - Moderate Dip ← YOU ARE HERE
+2026-11-27 08:18:54 - INFO -   🟠 16%-24%: 4x - Significant Dip
+2026-11-27 08:18:54 - INFO -   🔴 24%-∞%: 8x - Major Dip
+2026-11-27 08:18:54 - INFO - 
+============================================================
+2026-11-27 08:18:54 - WARNING - ⚠️  ELEVATED MULTIPLIER ACTIVE - BUYING OPPORTUNITY! ⚠️
+2026-11-27 08:18:54 - INFO - ============================================================
+
+2026-11-27 08:18:54 - INFO - 
+📊 HISTORICAL CONTEXT (Past 5 Years):
+2026-11-27 08:18:54 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:54 - INFO - Fetching 5-year historical data...
+2026-11-27 08:18:54 - INFO -   VOO Price Percentile:    88.7%
+2026-11-27 08:18:54 - INFO -   VIX Level Percentile:    89.4%
+2026-11-27 08:18:54 - WARNING -   ⚠️  VIX is elevated (top 11% of readings)
+2026-11-27 08:18:54 - INFO - ------------------------------------------------------------
+2026-11-27 08:18:54 - INFO - Historical context analysis completed
+2026-11-27 08:18:54 - INFO - 
+✅ Analysis complete!
+2026-11-27 08:18:54 - INFO - Execution completed at: 2026-11-27 08:18:54
+
