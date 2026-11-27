@@ -31,7 +31,7 @@ jobs:
 
           # ISO week number (1..53). Change `== 0` to `== 1` to flip to odd weeks.
           WEEK_NUM=$(date -u +%-V)
-          if [ $((WEEK_NUM % 2)) -eq 0 ]; then
+          if [ $((WEEK_NUM % 2)) -eq 1 ]; then
             echo "should_run=true" >> "$GITHUB_OUTPUT"
             echo "ISO Week $WEEK_NUM is an EVEN week — running bi-weekly DCA."
           else
